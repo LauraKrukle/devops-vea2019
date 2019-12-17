@@ -1,0 +1,3 @@
+To view PMD analyzing results go to site PMD.html.
+To check the properties part go to my given GitRepo repository,src, main, 
+prpertiesEdit to check the code.
