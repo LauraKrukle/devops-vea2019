@@ -1,0 +1,18 @@
+docker run -p 3333:8080 nasa-picture
+docker build -t nasa-picture .
+
+rob
+docker build . -t spring-petclinic
+docker images
+docker run -t -p 8081:8081 --name petclinic spring-petclinic
+docker ps
+max
+docker build -f Dockerfile -t springpetclinic .
+docker run -p 8080:8080 springpetclinic
+docker-machine ls
+docker ps
+
+mvn install
+docker build -f Dockerfile -t springpetclinic .
+docker run -p 3333:8080 springpetclinic
+docker ps
