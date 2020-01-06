@@ -1,0 +1,4 @@
+$ docker search jenkins
+$ docker search sonar
+$ docker-compose up
+$ docker-compose ps
