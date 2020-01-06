@@ -1,0 +1,8 @@
+ARG JENKINS_VER=lts
+ARG JENKINS_REGISTRY=jenkins/jenkins
+FROM ${JENKINS_REGISTRY}:${JENKINS_VER}
+
+USER root
+
+
+RUN apt-get update
