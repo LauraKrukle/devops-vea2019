@@ -1,0 +1,4 @@
+$ docker-compose ps
+jenkins         /sbin/tini -- /usr/local/b ...   Up       0.0.0.0:50000->50000/tcp, 0.0.0.0:8080->8080/tcp
+sonarqube       ./bin/run.sh                     Up	  0.0.0.0:9000->9000/tcp
+tutorial_db_1   docker-entrypoint.sh postgres    Up       5432/tcp
