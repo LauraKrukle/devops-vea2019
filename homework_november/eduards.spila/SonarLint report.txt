@@ -1,0 +1,3 @@
+Resource	Date		Description
+Main.java	12 minutes ago	Use a logger to log this exception.
+Main.java	12 minutes ago	Replace this use of System.out or System.err by a logger.
