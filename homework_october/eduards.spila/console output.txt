@@ -1,0 +1,51 @@
+Started by user admin
+Running as SYSTEM
+Building in workspace C:\Program Files (x86)\Jenkins\workspace\DevOpsHW
+No credentials specified
+ > git.exe rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/Smaidz/DevOpsHWApp.git # timeout=10
+Fetching upstream changes from https://github.com/Smaidz/DevOpsHWApp.git
+ > git.exe --version # timeout=10
+ > git.exe fetch --tags --force --progress -- https://github.com/Smaidz/DevOpsHWApp.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/master^{commit}" # timeout=10
+ > git.exe rev-parse "refs/remotes/origin/origin/master^{commit}" # timeout=10
+Checking out Revision cf494d8c47c1929bcdcde2c59fa92cfea0fda5d1 (refs/remotes/origin/master)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f cf494d8c47c1929bcdcde2c59fa92cfea0fda5d1 # timeout=10
+Commit message: "thing3"
+First time build. Skipping changelog.
+[DevOpsHW] $ cmd /c call C:\Windows\TEMP\jenkins1089223450733983361.bat
+
+C:\Program Files (x86)\Jenkins\workspace\DevOpsHW>cd C:\Users\eduar\Documents\workspace-spring-tool-suite-4-4.5.0.RELEASE\DevOpsHWApp\src\app 
+
+C:\Users\eduar\Documents\workspace-spring-tool-suite-4-4.5.0.RELEASE\DevOpsHWApp\src\app>javac Main.java 
+Main.java:14: error: cannot find symbol
+		ReturnInput ri = new ReturnInput();
+		^
+  symbol:   class ReturnInput
+  location: class Main
+Main.java:14: error: cannot find symbol
+		ReturnInput ri = new ReturnInput();
+		                     ^
+  symbol:   class ReturnInput
+  location: class Main
+2 errors
+
+C:\Users\eduar\Documents\workspace-spring-tool-suite-4-4.5.0.RELEASE\DevOpsHWApp\src\app>java Main.java  
+Main.java:14: error: cannot find symbol
+		ReturnInput ri = new ReturnInput();
+		^
+  symbol:   class ReturnInput
+  location: class Main
+Main.java:14: error: cannot find symbol
+		ReturnInput ri = new ReturnInput();
+		                     ^
+  symbol:   class ReturnInput
+  location: class Main
+2 errors
+error: compilation failed
+
+C:\Users\eduar\Documents\workspace-spring-tool-suite-4-4.5.0.RELEASE\DevOpsHWApp\src\app>exit 1 
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE
